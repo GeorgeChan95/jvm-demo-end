@@ -5,10 +5,8 @@ import java.util.ArrayList;
 /**
  * 测试生成详细的日志文件
  *
- * -Xms60m -Xmx60m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -XX:+PrintHeapAtGC
+ * -Xms60m -Xmx60m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintHeapAtGC -Xloggc:d:/gc-log-%t.log
  *
- * @author shkstart
- * @create 14:27
  */
 public class GCLogTest {
     public static void main(String[] args) {
